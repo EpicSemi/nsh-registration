@@ -1,0 +1,193 @@
+html,
+body {
+  height: 100%;
+  background: #072749;
+}
+
+@font-face {
+  font-family: "lato-regular-webfont";
+  src: url("../fonts/lato-regular-webfont.ttf") format("truetype");
+}
+@font-face {
+  font-family: "lato-bold-webfont";
+  src: url("../fonts/lato-bold-webfont.ttf") format("truetype");
+}
+
+.container-login {
+  width: 100%;
+  max-width: 60em;
+  margin: 0px auto 0;
+  padding-top: 250px;
+  overflow: hidden;
+  min-height: 100%;
+  margin-bottom: -48px;
+}
+
+.nsh-holder {
+  width: 100%;
+  max-width: 50em;
+  margin: 0 auto;
+  display: flex;
+  padding: 0 15px;
+}
+.nsh-holder:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+.login-desc {
+  width: 100%;
+  max-width: 20em;
+  display: flex;
+  align-items: center;
+}
+
+.logo-area {
+  margin-bottom: 20px;
+}
+
+.login-desc p {
+  color: #fff;
+  font-family: "lato-regular-webfont";
+}
+
+.loginbox {
+  width: 100%;
+  max-width: 30em;
+}
+
+.txt-login h1 {
+  font-family: "lato-bold-webfont";
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+.txt-login span {
+  color: #76c952;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 15px;
+}
+.txt-login p {
+  font-family: "lato-regular-webfont";
+  font-size: 30px;
+  line-height: 42px;
+  margin-bottom: 25px;
+}
+
+.footer-st {
+  background: #80cd53;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.footer-st .email-login {
+  color: #3e6625;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: "lato-bold-webfont";
+}
+
+.footer-st .email-login a {
+  color: #3e6625;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: "lato-bold-webfont";
+}
+
+.footer-st .email-login a:hover {
+  color: #000;
+}
+
+@media only screen and (max-width: 575.98px) {
+  .container-login {
+    padding-top: 100px;
+  }
+  .nsh-holder {
+    flex-direction: column;
+  }
+  .login-desc {
+    max-width: 100%;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .loginbox {
+    width: 100%;
+    max-width: 22em;
+    margin: 0 auto;
+  }
+  .txt-login span {
+    border-bottom: none;
+  }
+  .txt-login h1 {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .container-login {
+    padding-top: 5%;
+  }
+  .nsh-holder {
+    flex-direction: column;
+  }
+  .login-desc {
+    max-width: 100%;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .logo-area {
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .logo-area img {
+    width: 50%;
+  }
+  .loginbox {
+    width: 100%;
+    max-width: 25em;
+    margin: 0 auto;
+  }
+  .txt-login span {
+    border-bottom: none;
+  }
+  .txt-login h1 {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* .container-login {
+    padding-top: 5%;
+  } */
+
+  .login-desc {
+    padding: 0 0 0 15px;
+  }
+
+  .loginbox {
+    width: 60%;
+  }
+}
+
+/* @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .container-login {
+    padding-top: 5%;
+  }
+} */
+
+/* @media only screen and (min-width: 1200px) and (max-width: 1599.98px) {
+  .container-login {
+    padding-top: 5%;
+  }
+} */
+
+/* @media only screen and (min-width: 1600px) and (max-width: 1700px) {
+  .container-login {
+    padding-top: 8%;
+  } 
+}*/
